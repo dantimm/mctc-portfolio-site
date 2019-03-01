@@ -1,0 +1,38 @@
+#nav-logo {
+    min-width: 50px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/nav-toggler.svg);
+    }
+body{
+    background-color: #1f2a33;
+    font: avenir-next;
+    font-family: Avenir;
+}
+#splash-arrow {
+    max-width: 50px;
+}
+#splash-bottom{
+    background-color: white;
+}
+@font-face {
+    font-family: "avenir-next";
+    src: url("avenir-next.ttf");
+}
+
+h1 {
+    font-size: 18px;
+}
+h2{
+
+}
+h3{
+    font-size: 12px;
+}
+.dat-line {
+    line-height: 0;
+    margin-top: -25px;
+}
+.address {
+    color: #ce8851;
+}
