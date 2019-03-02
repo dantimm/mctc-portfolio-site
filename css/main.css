@@ -1,0 +1,39 @@
+/* TABLE OF CONTENTS */
+/*
+   1)   IMPORTS (HAMBURGER MENU)
+   2)   FONTS
+   3)   HEADER
+   4)   NAVBAR
+   #)   FOOTER
+
+*/
+
+/**/
+
+/* Imports */
+
+/* Hamburger Menu */
+@import "../css/hamburgers.css";
+
+/**/
+
+/* Fonts */
+
+@font-face {
+  font-family: "Avenir LT Std", sans-serif;
+  src: url(../fonts);
+}
+
+/**/
+
+/* Header */
+/* Dan Timm's Header */
+.nav-bg {
+  background-color: #1f2a33 !important;
+}
+
+/* Navbar */
+/* Dan Timm's Navbar */
+#nav-logo {
+  width: 75px;
+}
