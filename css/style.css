@@ -1,0 +1,76 @@
+/*TABLE OF CONTENTS*/
+
+/*1 TYPOGRAPHY*/
+/*2 COLOR CLASSES*/
+/*3 ICONOGRAPHY*/
+
+/*TYPOGRAPHY*/
+
+* {
+    font-family: 'Avenir LT Std';
+    color: #27313a;}
+
+h1 {
+    font-weight: 300;
+    font-size: calc(30px + 0.7vw)}
+
+h2 {
+    font-weight: 400;
+    font-size: calc(24px + 0.7vw);
+    color: #cc8651;}
+
+h3 {
+    font-weight: 400;
+    font-size: calc(18px + 0.7vw);}
+
+h4 {
+    font-weight: 400;
+    font-size: calc(16px + 0.7vw);}
+
+h5 {
+    font-weight: 400;
+    font-size: calc(12px + 0.7vw);}
+
+p {
+    font-weight: 300;
+    font-size: calc(15px + 0.4vw);
+    line-height: calc(22px + 0.7vw);}
+
+a {
+    color: #72194a;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #b22774;
+    text-decoration: none;
+}
+
+
+/*COLOR CLASSES*/
+
+.navy {color: #1f2a33;}
+.orange {color: #ad4f2c;}
+.tan {color: #cc8651;}
+.magenta {color: #72194a;}
+.white {color: white;}
+.navy-bg {background-color: #27313a; color: white;}
+.navy-bg-2 {background-color: #1f2a33}
+
+/*ICONOGRAPHY*/
+
+i {
+    font-size: calc(18px + 0.7vw);
+    font-weight: 200;}
+
+i:hover {
+    color: #cc8651;}
+
+i:active {
+    color: #ad4f2c;}
+
+hr {
+    border-top: 1px solid #1f2a33;}
+
+
+
