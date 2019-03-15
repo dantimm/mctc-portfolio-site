@@ -7,67 +7,45 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="fonts/fonts-avenir.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-    <title></title>
+    <title>Home</title>
 </head>
-
 <body>
-<div class="row p-0 m-0" id="splash-bg">
-    <div class="col-12 m-0 p-0">
 
-<nav class="navbar navbar-expand-xl  ">
-    <a class="navbar-brand" href="index.html">
-        <img src="images/logo.svg" alt="logo" class="img-fluid" id="nav-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-    </div>
-    <div class="col-1 col-sm-3"></div>
-    <div class="col-10 col-sm-6  p-4">
-        <img src="images/logo.svg" alt="">
-    </div>
-    <div class="col-1 col-sm-3"></div>
-
-    <div class="col-5"></div>
-    <div class="col-3 mt-4 mb-1">
-        <img src="images/arrow.svg" alt="" id="splash-arrow" class="pb-3">
-    </div>
-    <div class="col-4"></div>
-
-</div>
-
-<div class="row  p-4" id="splash-bottom">
-    <div class="col-5 offset-1  p-4">
-        <h1>5 . 7 . 2019</h1> <br>
-        <h3 class="dat-line">10am - 7pm</h3>
-    </div>
-    <span class="border-right"></span>
-
-    <div class="col-5 p-4 copy">
-        <h1>5 . 7 . 2019</h1> <br>
-    <h3 class="dat-line">10am - 5pm</h3>
-    </div>
-
-
-        <div class="col-10 offset-2 address mt-4">
-            Whitney Hall, Room L3000 <br>
-            1501 Hennepin Ave <br>
-            Minneapolis, Minnesota, 55403
+<div id="fullpage">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg">
+        <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo"></a>
+        <div class="ml-auto">
+            <button class="hamburger hamburger--spring" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
         </div>
+
+
+    </nav>
+
+    <div class="section fp-noscroll landing">
+
+        <img class="arc" src="svg/arc.svg" alt="arc ornament">
+        <img class="steps" src="svg/steps.svg" alt="steps ornament">
+
+        <img class="splashlogo" src="images/logo.svg" alt="logo">
+
+    </div>
+    <div class="section about">
+
+    </div>
+    <div class="section artist">
+
+    </div>
+
+
 </div>
 
 
@@ -76,5 +54,49 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
+
+        //methods
+        $.fn.fullpage.setAllowScrolling(true);
+    });
+
+    /**
+     * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+     *
+     * @private
+     * @author Todd Motto
+     * @link https://github.com/toddmotto/foreach
+     * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+     * @callback requestCallback      callback   - Callback function for each iteration.
+     * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+     * @returns {}
+     */
+    var forEach = function (t, o, r) {
+        if ("[object Object]" === Object.prototype.toString.call(t))
+            for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+        else
+            for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+    };
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+        forEach(hamburgers, function (hamburger) {
+            hamburger.addEventListener("click", function () {
+                this.classList.toggle("is-active");
+            }, false);
+        });
+    }
+
+</script>
 </body>
 </html>
