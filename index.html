@@ -10,25 +10,39 @@
     <link rel="stylesheet" href="css/hamburgers.css">
     <link rel="stylesheet" href="fonts/fonts-avenir.css">
     <link rel="stylesheet" href="css/fullpage.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Home</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
+    <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo"></a>
+    <div class="ml-auto">
+        <div class="menu-toggle-wrapper">
+            <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu" aria-controls="navigation"
+                    aria-expanded="true">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner">
 
-<div id="fullpage">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg">
-        <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo"></a>
-        <div class="ml-auto">
-            <button class="hamburger hamburger--spring" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
+                        </span>
+                    </span>
             </button>
+
         </div>
 
+    </div>
+    <div id="popUpNav" class="overlay" onclick="closeNav()">
 
-    </nav>
+        <div class="overlay-content" id="myMenu">
+            <a data-menuanchor="firstPage" href="index.html" data-scroll><h2>HOME</h2></a>
+            <a data-menuanchor="secondPage" href="#about" data-scroll><h2>SHOW INFO</h2></a>
+            <a data-menuanchor="thirdPage" href="#artist" data-scroll><h2>DESIGNERS</h2></a>
+        </div>
+    </div>
+</nav>
+
+<div id="fullpage">
+
 
     <div class="section fp-noscroll landing">
 
@@ -38,10 +52,10 @@
         <img class="splashlogo" src="images/logo.svg" alt="logo">
 
     </div>
-    <div class="section about">
+    <div class="section about" id="about">
 
     </div>
-    <div class="section artist">
+    <div class="section artist" id="artist">
 
     </div>
 
@@ -50,6 +64,31 @@
 
 
 <!-- Optional JavaScript -->
+<script>function openNav() {
+    hamburger.classList.add("is-active");
+    document.getElementById("popUpNav").style.height = "100%";
+    console.log("openNav was called");
+}
+
+function closeNav() {
+    hamburger.classList.remove("is-active");
+    document.getElementById("popUpNav").style.height = "0";
+    console.log("closeNav was called");
+}
+
+// Hamburger Menu Spin
+var hamburger = document.querySelector(".hamburger");
+
+
+
+hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() : openNav());
+
+closeNav();
+
+$('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage', 'thirdPage'],
+    menu: '#myMenu'});
+</script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -69,33 +108,6 @@
         //methods
         $.fn.fullpage.setAllowScrolling(true);
     });
-
-    /**
-     * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
-     *
-     * @private
-     * @author Todd Motto
-     * @link https://github.com/toddmotto/foreach
-     * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
-     * @callback requestCallback      callback   - Callback function for each iteration.
-     * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
-     * @returns {}
-     */
-    var forEach = function (t, o, r) {
-        if ("[object Object]" === Object.prototype.toString.call(t))
-            for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
-        else
-            for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
-    };
-
-    var hamburgers = document.querySelectorAll(".hamburger");
-    if (hamburgers.length > 0) {
-        forEach(hamburgers, function (hamburger) {
-            hamburger.addEventListener("click", function () {
-                this.classList.toggle("is-active");
-            }, false);
-        });
-    }
 
 </script>
 </body>
