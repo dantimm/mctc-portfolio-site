@@ -50,13 +50,17 @@
   font-family: 'Avenir LT Std', sans-serif;
   color: #27313a;}
 
+.unna{
+  font-family: Unna;
+}
+
 h1 {
   font-weight: 300;
   font-size: calc(30px + 0.7vw)}
 
 h2 {
   font-weight: 400;
-  font-size: calc(24px + 0.6vw);
+  font-size: calc(24px + 0.7vw);
   color: #cc8651;}
 
 h3 {
@@ -70,6 +74,9 @@ h4 {
 h5 {
   font-weight: 400;
   font-size: calc(12px + 0.7vw);}
+h6{
+  font-weight: 400;
+  font-size: calc(10px + 0.7vw);}
 
 p {
   font-weight: 300;
@@ -126,8 +133,20 @@ body {
   position: absolute;
   top: 26%;
   left: 36%;
-"
 
+
+}
+.splash-arrow {
+  width: 4%;
+  top: 93%;
+  left: 48%;
+  position: absolute;
+}
+.lg-bg {
+  position: absolute;
+  top: -157%;
+  left: 154%;
+  width: 156%;
 }
 
 @media only screen and (min-width: 320px) {
@@ -198,7 +217,7 @@ body {
   margin-top: 75px;
 }
 .landing {
-  background-color: rgb(31, 42, 51);
+  background-color: #1b242b;
   margin-top: 0;
 
 }
@@ -211,123 +230,32 @@ body {
 }
 
 .artist {
-  background-color: rgb(31,42,51);
-  padding-top: 11px;
-  height: 100vh !important;
-  display: block;
-}
-.artist, h1 {
-  color: white;
-  text-align: center;
-  margin-bottom: 49px;
-  margin-top: 105px;
-}
-.majors {
-  position: relative;
-  margin-bottom: 90px;
-
-}
-.printitle {
-  color: white;
-  position: absolute;
-  left: 22%
-
-}
-.webtitle {
-  color: white;
-  position: absolute;
-  right: 40%;
-}
-.artistcontainer {
-  margin: 20px auto;
-  height: 479px;
-  overflow: scroll!important;
-  padding: 0 60px;
-  z-index: 9999;
-
-
-}
-.artistdisplay {
-  margin-top: 60px;
-  position: relative;
+  background-color: #1f2a33;
 }
 
-.artistcontainer::-webkit-scrollbar {
-  width: 5px;
+
+.artist-info {
+  margin-top: 0;
+  padding: 100px 50px 15px;
+  min-height: 90.5vh;
+  background-color: #1f2a33;
+
 }
 
-.artistcontainer::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid black;
-  border-radius: 10px;
-  opacity: .8;
-}
-
-.artistcontainer::-webkit-scrollbar-corner{
-  display: none;
-}
-
-hr {
-  border: .75px solid white;
-  opacity: .8;
-}
-
-.profilepic {
-  border-radius: 50%;
-  width: 100PX;
-  background-color: #aa4f2c;
-  height: 100PX;
-}
-.profilename {
-  text-align: right;
-  width: 200px;
-  position: absolute;
-  top: 20px;
-  left: 50px;
-}
-.firstname {
-  font-size: 25px;
-  margin-bottom: 0px;
+.artist-text {
   color: white;
 }
-.lastname {
-  font-size: 18px;
+#artist-name {
+  margin-top: 50px;
+}
+#artist-hr {
+  max-width: 200px;
   color: white;
+  border-top: 1px solid white;
 }
-.print {
-  padding: 20px 10px;
-  float: left;
+#artist-stmt {
+  font-size: 1em;
 }
-.arrow {
-  position: absolute;
-  top: 35px;
-  right: 0;
-  font-size: 35px;
-  transition: right ease 0.5s;
-  color: white;
-}
-.web {
-  display: inline-block;
-  float: right;
-  height: 900px;
-  padding: 20px 10px;
-}
-
-.print a, .web a {
-  color: white;
-}
-
-.print a:hover .arrow{
-  right: -20px;
-}
-
-
-.web a:hover .arrow{
-  right: -20px;
-}
-
-
-
 #sidebar {
   padding: 0!important;
 }
@@ -356,19 +284,7 @@ hr {
   margin: auto;
 }
 
-/*SPLASH PAGE CUSTOM CSS*/
 
-.vertical-rule {
-  border: none;
-  border-left: 1px solid hsla(200, 10%, 50%,100);
-  /*height: 100vh;*/
-  width: 1px;
-  margin-left: 1vw!important;}
-
-.btn-1 {
-  background-color: #27313a;
-  color: white;
-}
 
 
 
