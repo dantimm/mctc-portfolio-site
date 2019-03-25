@@ -73,7 +73,7 @@ h5 {
 
 p {
   font-weight: 300;
-  font-size: calc(15px + 0.4vw);
+  font-size: calc(13px + 0.4vw);
   line-height: calc(22px + 0.7vw);}
 
 a {
@@ -356,7 +356,7 @@ hr {
   margin: auto;
 }
 
-/*SPLASH PAGE CUSTOM CSS*/
+/*SPLASH PAGE ABOUT DIV CUSTOM CSS*/
 
 .vertical-rule {
   border: none;
@@ -369,6 +369,29 @@ hr {
   background-color: #27313a;
   color: white;
 }
+
+@media (min-width: 576px) {
+
+  #about h2 {
+    font-weight: 400;
+    font-size: calc(26px + 0.8vw);
+    color: #cc8651;}
+
+  #about h5 {
+    font-weight: 400;
+    font-size: calc(15px + 0.8vw);}
+
+  #about p {
+    font-weight: 300;
+    font-size: calc(13px + 0.5vw);
+    line-height: calc(22px + 0.9vw);}
+
+  #about .space {
+    margin-top: 30px!important;
+  }
+}
+
+
 
 
 
