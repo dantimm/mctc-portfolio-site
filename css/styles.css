@@ -1,3 +1,47 @@
+/* TABLE OF CONTENTS */
+/*
+   1)   IMPORTS (HAMBURGER MENU)
+   2)   FONTS
+   3)   HEADER
+   4)   NAVBAR
+   #)   FOOTER
+
+*/
+
+/**/
+
+/* Imports */
+
+/* Hamburger Menu */
+@import "hamburgers.css";
+
+/**/
+
+/* Fonts */
+
+@font-face {
+    font-family: "Avenir LT Std", sans-serif;
+    src: url(../fonts);
+}
+
+/**/
+
+/* Header */
+/* Dan Timm's Header */
+.nav-bg {
+    background-color: #1f2a33 !important;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+/* Navbar */
+/* Dan Timm's Navbar */
+#nav-logo {
+    width: 75px;
+}
+
 body{
 
     background-repeat: no-repeat;
@@ -89,49 +133,113 @@ background-color: rgb(31,42,51);
 }
 
 .artist {
-    background-color: blue;
+    background-color: rgb(31,42,51);
+    padding-top: 11px;
+}
+.artist, h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.majors {
+    position: relative;
+    margin-bottom: 90px;
+
+}
+.printitle {
+    color: white;
+    position: absolute;
+    left: 15%;
+
+}
+.webtitle {
+    color: white;
+    position: absolute;
+    right: 38%;
+}
+.artistcontainer {
+    margin: 20px auto;
+    height: 75vh;
+    overflow: scroll;
+    padding: 0px 60px;
+    z-index: 9999;
+
+
+}
+.artistdisplay {
+    margin-top: 60px;
+    position: relative;
 }
 
-/* TABLE OF CONTENTS */
-/*
-   1)   IMPORTS (HAMBURGER MENU)
-   2)   FONTS
-   3)   HEADER
-   4)   NAVBAR
-   #)   FOOTER
-
-*/
-
-/**/
-
-/* Imports */
-
-/* Hamburger Menu */
-@import "hamburgers.css";
-
-/**/
-
-/* Fonts */
-
-@font-face {
-    font-family: "Avenir LT Std", sans-serif;
-    src: url(../fonts);
+.artistcontainer::-webkit-scrollbar {
+    width: 5px;
 }
 
-/**/
-
-/* Header */
-/* Dan Timm's Header */
-.nav-bg {
-    background-color: #1f2a33 !important;
-    position: fixed !important;
-    top: 0;
-    width: 100%;
-    z-index: 99;
+.artistcontainer::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid black;
+    border-radius: 10px;
+    opacity: .8;
 }
 
-/* Navbar */
-/* Dan Timm's Navbar */
-#nav-logo {
-    width: 75px;
+.artistcontainer::-webkit-scrollbar-corner{
+    display: none;
 }
+
+hr {
+    border: .75px solid white;
+    opacity: .8;
+}
+
+.profilepic {
+    border-radius: 50%;
+    width: 100PX;
+    background-color: #aa4f2c;
+    height: 100PX;
+}
+.profilename {
+    text-align: right;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.firstname {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.lastname {
+    font-size: 18px;
+}
+.print {
+    padding: 20px 10px;
+    float: left;
+}
+.arrow {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    font-size: 35px;
+    transition: right ease 0.5s
+}
+.web {
+    display: inline-block;
+    float: right;
+    height: 900px;
+    padding: 20px 10px;
+}
+
+.print a, .web a {
+    color: white;
+}
+
+.print a:hover .arrow{
+    right: 40px;
+}
+
+
+.web a:hover .arrow{
+    right: 40px;
+}
+
+

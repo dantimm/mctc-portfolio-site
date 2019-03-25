@@ -29,7 +29,7 @@
 /* Header */
 /* Dan Timm's Header */
 .nav-bg {
-  background-color: #1f2a33 !important;
+  background-color: rgba(31, 42, 51, 1);!important;
 }
 
 /* Navbar */
@@ -37,3 +37,340 @@
 #nav-logo {
   width: 75px;
 }
+
+/*TABLE OF CONTENTS*/
+
+/*1 TYPOGRAPHY*/
+/*2 COLOR CLASSES*/
+/*3 ICONOGRAPHY*/
+
+/*TYPOGRAPHY*/
+
+* {
+  font-family: 'Avenir LT Std', sans-serif;
+  color: #27313a;}
+
+h1 {
+  font-weight: 300;
+  font-size: calc(30px + 0.7vw)}
+
+h2 {
+  font-weight: 400;
+  font-size: calc(24px + 0.6vw);
+  color: #cc8651;}
+
+h3 {
+  font-weight: 400;
+  font-size: calc(18px + 0.7vw);}
+
+h4 {
+  font-weight: 400;
+  font-size: calc(16px + 0.7vw);}
+
+h5 {
+  font-weight: 400;
+  font-size: calc(12px + 0.7vw);}
+
+p {
+  font-weight: 300;
+  font-size: calc(15px + 0.4vw);
+  line-height: calc(22px + 0.7vw);}
+
+a {
+  color: #72194a;
+  font-weight: 800;
+}
+
+a:hover {
+  color: #b22774;
+  text-decoration: none;
+}
+
+
+/*COLOR CLASSES*/
+
+.navy {color: #1f2a33;}
+.orange {color: #ad4f2c;}
+.tan {color: #cc8651;}
+.magenta {color: #72194a;}
+.white {color: white;}
+.navy-bg {background-color: #27313a; color: white;}
+.navy-bg-2 {background-color: #1f2a33}
+
+/*ICONOGRAPHY*/
+
+i {
+  font-size: calc(18px + 0.7vw);
+  font-weight: 200;}
+
+i:hover {
+  color: #cc8651;}
+
+i:active {
+  color: #ad4f2c;}
+
+hr {
+  border-top: 1px solid #1f2a33;}
+
+
+
+body {
+
+  background-color: #1f2a33;
+  background-repeat: no-repeat;
+}
+
+/* splash logo styles | positioning and sizing */
+.splashlogo {
+  width: 25%;
+  position: absolute;
+  top: 26%;
+  left: 36%;
+"
+
+}
+
+@media only screen and (min-width: 320px) {
+  .splashlogo {
+    width: 77%;
+    position: absolute;
+    top: 29%;
+    left: 12%;
+  }
+
+  .arc {
+    position: absolute;
+    top: 0%;
+    left: -135px;
+    width: 88%;
+  }
+
+  .steps {
+    position: absolute;
+    top: 84%;
+    right: -5px;
+    width: 23%;
+  }
+
+  #nav-logo {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .splashlogo {
+    width: 40%;
+    position: absolute;
+    top: 23%;
+    left: 14%;
+  }
+
+  .arc {
+    position: absolute;
+    top: 0%;
+    left: -135px;
+    width: 50%;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .splashlogo {
+    width: 40%;
+    position: absolute;
+    top: 23%;
+    left: 31%;
+  }
+
+  .arc {
+    position: absolute;
+    top: 0%;
+    left: -135px;
+    width: 50%;
+  }
+
+
+}
+
+
+.section {
+  margin-top: 75px;
+}
+.landing {
+  background-color: rgb(31, 42, 51);
+  margin-top: 0;
+
+}
+
+.about {
+  background: url("../images/about-bg.jpg")center center;
+  background-size: contain;
+  height: auto;
+;
+}
+
+.artist {
+  background-color: rgb(31,42,51);
+  padding-top: 11px;
+  height: 100vh !important;
+  display: block;
+}
+.artist, h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 49px;
+  margin-top: 105px;
+}
+.majors {
+  position: relative;
+  margin-bottom: 90px;
+
+}
+.printitle {
+  color: white;
+  position: absolute;
+  left: 22%
+
+}
+.webtitle {
+  color: white;
+  position: absolute;
+  right: 40%;
+}
+.artistcontainer {
+  margin: 20px auto;
+  height: 479px;
+  overflow: scroll!important;
+  padding: 0 60px;
+  z-index: 9999;
+
+
+}
+.artistdisplay {
+  margin-top: 60px;
+  position: relative;
+}
+
+.artistcontainer::-webkit-scrollbar {
+  width: 5px;
+}
+
+.artistcontainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid black;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+.artistcontainer::-webkit-scrollbar-corner{
+  display: none;
+}
+
+hr {
+  border: .75px solid white;
+  opacity: .8;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 100PX;
+  background-color: #aa4f2c;
+  height: 100PX;
+}
+.profilename {
+  text-align: right;
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+.firstname {
+  font-size: 25px;
+  margin-bottom: 0px;
+  color: white;
+}
+.lastname {
+  font-size: 18px;
+  color: white;
+}
+.print {
+  padding: 20px 10px;
+  float: left;
+}
+.arrow {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  font-size: 35px;
+  transition: right ease 0.5s;
+  color: white;
+}
+.web {
+  display: inline-block;
+  float: right;
+  height: 900px;
+  padding: 20px 10px;
+}
+
+.print a, .web a {
+  color: white;
+}
+
+.print a:hover .arrow{
+  right: -20px;
+}
+
+
+.web a:hover .arrow{
+  right: -20px;
+}
+
+
+
+#sidebar {
+  padding: 0!important;
+}
+.st-con {
+  margin: auto;
+}
+
+#artwork {
+  margin:  auto;
+}
+
+#art-row2 {
+  margin-top: 30px;
+}
+
+#gallery {
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+#feat {
+  font-weight: 900;
+}
+
+#go-back {
+  margin: auto;
+}
+
+/*SPLASH PAGE CUSTOM CSS*/
+
+.vertical-rule {
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%,100);
+  /*height: 100vh;*/
+  width: 1px;
+  margin-left: 1vw!important;}
+
+.btn-1 {
+  background-color: #27313a;
+  color: white;
+}
+
+
+
+
+

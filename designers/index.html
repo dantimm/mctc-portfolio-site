@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/hamburgers.css">
+    <link rel="stylesheet" href="../fonts/fonts-avenir.css">
+    <link rel="stylesheet" href="../css/fullpage.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>Home</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background: white">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
+    <a class="navbar-brand" href="index.html"><img src="../svg/nav-brand.svg" alt="" id="nav-logo"></a>
+    <div class="ml-auto">
+        <div class="menu-toggle-wrapper">
+            <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu" aria-controls="navigation"
+                    aria-expanded="true">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner">
+
+                        </span>
+                    </span>
+            </button>
+
+        </div>
+
+    </div>
+    <div id="popUpNav" class="overlay" onclick="closeNav()">
+
+        <div class="overlay-content" id="myMenu">
+            <a data-menuanchor="firstPage" href="../index.html" data-scroll><h2>HOME</h2></a>
+            <a data-menuanchor="secondPage" href="../index.html#about" data-scroll><h2>SHOW INFO</h2></a>
+            <a data-menuanchor="thirdPage" href="../index.html#artist" data-scroll><h2>DESIGNERS</h2></a>
+        </div>
+    </div>
+</nav>
+<div id="fullpage">
+
+
+    <div class="section fp-noscroll ">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5" id="sidebar" style="background-color: ghostwhite">
+                    <div class="artist-info text-center">
+                        <img src="../images/me.jpg" alt="dan timm headshot" class="img-fluid" style="max-width: 200px;border-radius: 300px">
+                        <h2 class="artist-text" id="artist-name">Dan Timm</h2>
+                        <hr id="artist-hr">
+                        <h3 class="artist-text">Web</h3>
+                        <div class="w-75 text-center st-con"><p class="artist-text" id="artist-stmt">I think as a designer it’s very important that I push
+                            myself out of my comfort zone in order to make great work. Most importantly, keep it simple stupid.</p></div>
+                        
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div>
+
+                </div>
+                <div class="col-lg-7" id="artwork">
+
+                        <h1 style="text-align: center" id="feat">Featured Work</h1>
+                    <div id="gallery" class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-6">
+                                <div style="max-width: 400px;height: 200px;background-color: #333333;margin:0 auto 30px "></div>
+                                <div style="max-width: 400px;height: 200px;background-color: #333333;margin:0 auto 30px "></div>
+                                                                                                            
+                            </div>                                                                          
+                            <div class="col-lg-6">                                                          
+                                <div style="max-width: 400px;height: 200px;background-color: #333333;margin:0 auto 30px "></div>
+                                <div style="max-width: 400px;height: 200px;background-color: #333333;margin:0 auto 30px "></div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div style="text-align: center"><p><a class="btn btn-secondary" href="#" role="button" id="go-back">Go Back »</a></p></div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Optional JavaScript -->
+<script>function openNav() {
+    hamburger.classList.add("is-active");
+    document.getElementById("popUpNav").style.height = "100%";
+    console.log("openNav was called");
+}
+
+function closeNav() {
+    hamburger.classList.remove("is-active");
+    document.getElementById("popUpNav").style.height = "0";
+    console.log("closeNav was called");
+}
+
+// Hamburger Menu Spin
+var hamburger = document.querySelector(".hamburger");
+
+
+
+hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() : openNav());
+
+closeNav();
+
+$('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage', 'thirdPage'],
+    menu: '#myMenu'});
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
+
+        //methods
+        $.fn.fullpage.setAllowScrolling(true);
+    });
+
+</script>
+</body>
+</html>
