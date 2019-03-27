@@ -457,6 +457,11 @@ hr {
   margin: 0 auto 30px !important;
 }
 
+#b-icon {
+  font-size: 1.25rem;
+  margin-top: -4px
+}
+
 
 /* INTERIOR PAGE Mobile Phone QUERY */
 
