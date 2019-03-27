@@ -63,10 +63,12 @@
             <img class="splashlogo" src="images/logo.svg" alt="logo">
 
         </div>
+
         <div class="section about" id="about">
-            <div class="container">
+
+            <div class="container mt-5">
                 <div class="row mb-5">
-                    <div class="col-sm-2"></div>
+                    <div class="col-lg-2"></div>
                     <div class="col ml-2">
                         <h5 class="text-uppercase font-weight-bold">Tuesday</h5>
                         <h2>7 May 2019</h2>
@@ -77,28 +79,42 @@
                         <h5 class="text-uppercase font-weight-bold">Wednesday</h5>
                         <h2>8 May 2019</h2>
                         <h5>10am - 5pm</h5>
+
                     </div>
                     <div class="col-sm-2"></div>
                 </div>
-                <div class="row">
-                    <div class="col-2 col-md-3"></div>
-                    <div class="col">
+
+                <div class="row mb-4">
+                    <div class="col-lg-2"></div>
+                    <div class="col ml-2">
+                        <div class="space"></div>
                         <h5 class="font-weight-bold text-uppercase">Minneapolis Community and Technical College</h5>
-                        <p>Whitney Hall, Room L3000<br>
+                        <h5>Whitney Hall, Room L3000<br>
                             1501 Hennepin Ave<br>
-                            Minneapolis, Minnesota 55403</p>
-                        <a href="info.html" class="btn btn-1 mt-3" role="button">Get show details</a>
-                    </div>
-                    <div class="col">
-                        <p>We are a collective of innovators who reflect the communities that make up Minneapolis
-                            College.</p>
+                            Minneapolis, Minnesota 55403</h5>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col ml-2">
+                        <div class="space"></div>
+
+                        <p class="">We are a collective of innovators who reflect the communities that make up
+                            Minneapolis College. As designers we are connected by a common desire to tell stories,
+                            through our work, that represent our diverse voices. </p>
+                        <p class="">It's more than a show—it's an introduction to the next generation of design.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
 
-        <div class="section artist">
+
+
+
+        <div class="section artist" id="artist">
             <img class="arc" src="svg/arc.svg" alt="arc ornament">
             <img class="steps" src="svg/steps.svg" alt="steps ornament">
             <h1> The Designers</h1>
@@ -322,7 +338,8 @@
 
 
 
-        hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() : openNav());
+        hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() :
+            openNav());
 
         closeNav();
 
