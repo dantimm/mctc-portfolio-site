@@ -82,6 +82,7 @@ h5 {
 
 p {
   font-weight: 300;
+<<<<<<< HEAD
   <<<<<<< HEAD font-size: calc(15px + 0.4vw);
   line-height: calc(22px + 0.7vw);
 }
@@ -89,6 +90,10 @@ p {
 =======font-size: calc(13px + 0.4vw);
 line-height: calc(22px + 0.7vw);
 }
+=======
+  font-size: calc(15px + 0.4vw);
+  line-height: calc(22px + 0.7vw);}
+>>>>>>> f52918c2a1ccf1eea08e02cd0fb894553dd49c14
 
 >>>>>>>cdfae0eed588e1784e52f44c2ce05ab5402f931f a {
   color: #72194a;
@@ -418,6 +423,7 @@ hr {
   margin: auto;
 }
 
+<<<<<<< HEAD
 
 .artist-info {
   margin-top: 4rem;
@@ -476,6 +482,9 @@ hr {
 
 /*SPLASH PAGE CUSTOM CSS*/
 /*SPLASH PAGE ABOUT DIV CUSTOM CSS*/
+=======
+/*SPLASH PAGE CUSTOM CSS*/
+>>>>>>> f52918c2a1ccf1eea08e02cd0fb894553dd49c14
 
 .vertical-rule {
   border: none;
@@ -491,6 +500,7 @@ hr {
 }
 
 
+<<<<<<< HEAD
 @media (min-width: 576px) {
 
   #about h2 {
@@ -514,3 +524,8 @@ hr {
     margin-top: 30px !important;
   }
 }
+=======
+
+
+
+>>>>>>> f52918c2a1ccf1eea08e02cd0fb894553dd49c14
