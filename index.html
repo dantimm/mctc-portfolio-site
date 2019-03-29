@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/hamburgers.css">
     <link rel="stylesheet" href="fonts/fonts-avenir.css">
@@ -16,110 +19,377 @@
 
     <title>Home</title>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
-    <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo"></a>
-    <div class="ml-auto">
-        <div class="menu-toggle-wrapper">
-            <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu" aria-controls="navigation"
-                    aria-expanded="true">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
+        <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo"></a>
+        <div class="ml-auto">
+            <div class="menu-toggle-wrapper">
+                <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu"
+                    aria-controls="navigation" aria-expanded="true">
                     <span class="hamburger-box">
                         <span class="hamburger-inner">
 
                         </span>
                     </span>
-            </button>
-        </div>
+                </button>
 
-    </div>
-    <div id="popUpNav" class="overlay" onclick="closeNav()">
-
-        <div class="overlay-content" id="myMenu">
-            <a data-menuanchor="firstPage" href="index.html" data-scroll><h2>HOME</h2></a>
-            <a data-menuanchor="secondPage" href="#about" data-scroll><h2>SHOW INFO</h2></a>
-            <a data-menuanchor="thirdPage" href="#artist" data-scroll><h2>DESIGNERS</h2></a>
-
-        </div>
-    </div>
-</nav>
-
-<div id="fullpage">
-
-    </div>
-    <div id="popUpNav" class="overlay" onclick="closeNav()">
-
-        <div class="overlay-content" id="myMenu">
-            <a data-menuanchor="firstPage" href="index.html" data-scroll><h2>HOME</h2></a>
-            <a data-menuanchor="secondPage" href="#about" data-scroll><h2>SHOW INFO</h2></a>
-            <a data-menuanchor="thirdPage" href="#artist" data-scroll><h2>DESIGNERS</h2></a>
-        </div>
-    </div>
-</nav>
-
-<div id="fullpage">
-
-
-    <div class="section landing">
-
-        <img class="arc" src="svg/arc.svg" alt="arc ornament">
-        <img class="steps" src="svg/steps.svg" alt="steps ornament">
-
-        <img class="splashlogo" src="images/logo.svg" alt="logo">
-
-    </div>
-    <div class="section about" id="about">
-        <div class="container">
-        <div class="row mb-5">
-            <div class="col-sm-2"></div>
-            <div class="col ml-2">
-                <h5 class="text-uppercase font-weight-bold">Tuesday</h5>
-                <h2>7 May 2019</h2>
-                <h5>10am - 7pm</h5>
-                </div>
-            <div class="col-1 vertical-rule mr-3"></div>
-            <div class="col mr-1">
-                <h5 class="text-uppercase font-weight-bold">Wednesday</h5>
-                <h2>8 May 2019</h2>
-                <h5>10am - 5pm</h5>
             </div>
-            <div class="col-sm-2"></div>
+
         </div>
-            <div class="row">
-                <div class="col-2 col-md-3"></div>
-                <div class="col">
-                    <h5 class="font-weight-bold text-uppercase">Minneapolis Community and Technical College</h5>
-                    <p>Whitney Hall, Room L3000<br>
-                    1501 Hennepin Ave<br>
-                    Minneapolis, Minnesota 55403</p>
-                    <a href="info.html" class="btn btn-1 mt-3" role="button">Get show details</a>
+        <div id="popUpNav" class="overlay" onclick="closeNav()">
+
+            <div class="overlay-content" id="myMenu">
+                <a data-menuanchor="firstPage" href="index.html" data-scroll>
+                    <h2>HOME</h2>
+                </a>
+                <a data-menuanchor="secondPage" href="#about" data-scroll>
+                    <h2>SHOW INFO</h2>
+                </a>
+                <a data-menuanchor="thirdPage" href="#artist" data-scroll>
+                    <h2>DESIGNERS</h2>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="fullpage">
+
+        <div class="section landing" id="landing">
+
+            <img class="arc" src="svg/arc.svg" alt="arc ornament">
+            <img class="steps" src="svg/steps.svg" alt="steps ornament">
+
+            <img class="splashlogo" src="images/logo.svg" alt="logo">
+
+        </div>
+        <div class="section about" id="about">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-sm-2"></div>
+                    <div class="col ml-2">
+                        <h5 class="text-uppercase font-weight-bold">Tuesday</h5>
+                        <h2>7 May 2019</h2>
+                        <h5>10am - 7pm</h5>
+                    </div>
+                    <div class="col-1 vertical-rule mr-3"></div>
+                    <div class="col mr-1">
+                        <h5 class="text-uppercase font-weight-bold">Wednesday</h5>
+                        <h2>8 May 2019</h2>
+                        <h5>10am - 5pm</h5>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-2 col-md-3"></div>
+                    <div class="col">
+                        <h5 class="font-weight-bold text-uppercase">Minneapolis Community and Technical College</h5>
+                        <p>Whitney Hall, Room L3000<br>
+                            1501 Hennepin Ave<br>
+                            Minneapolis, Minnesota 55403</p>
+                        <a href="info.html" class="btn btn-1 mt-3 infobtn" role="button">Get show details</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="section artist" id="artist">
-        <img class="arc" src="svg/arc.svg" alt="arc ornament">
-        <img class="steps" src="svg/steps.svg" alt="steps ornament">
-        <h1> The Designers</h1>
-        <div class="majors">
-            <h3 class="printitle">Print</h3>
-            <h3 class="webtitle">Web</h3>
-        </div>
 
-        <div class="artistcontainer col-lg-8" id="artistscroll">
-            <div class="print col-lg-5">
-                <div>
+        <div class="section artist fp-scrollable fp-scroller iScrollVerticalScrollbar iScrollIndicator fp-section" id="artist">
+            <img class="arc" src="svg/arc.svg" alt="arc ornament">
+            <img class="steps" src="svg/steps.svg" alt="steps ornament">
+          <div class="container">
 
+
+              <h1> The Designers</h1>
+
+              <div class="print col-lg-5">
+                    <div>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Kat </p>
+                                    <p class="lastname">Sanchez</p>
+                                    <p class="major">print + web</p>
+
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Justin</p>
+                                    <p class="lastname">Splinter</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Meagan</p>
+                                    <p class="lastname"> Taylor</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Maija</p>
+                                    <p class="lastname">Peura</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Shannon</p>
+                                    <p class="lastname">Underwood</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Taylor</p>
+                                    <p class="lastname">Miller</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Mary</p>
+                                    <p class="lastname">Drabik</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Ry</p>
+                                    <p class="lastname">McFarlan</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Brigid</p>
+                                    <p class="lastname">Kellly</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Patricia</p>
+                                    <p class="lastname">Kennedy</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Rose</p>
+                                    <p class="lastname">Hein</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Joseph</p>
+                                    <p class="lastname">Steinbach</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Xavier</p>
+                                    <p class="lastname">Bonilla</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Jonathan</p>
+                                    <p class="lastname">MacDonald</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Jesse</p>
+                                    <p class="lastname">Malec</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Dan</p>
+                                    <p class="lastname">Timm</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Alex</p>
+                                    <p class="lastname">Holtzman</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <hr>
+
+                        <a href="#">
+                            <div class="artistdisplay">
+                                <div class="profilepic">
+                                </div>
+                                <div class="profilename">
+                                    <p class="firstname">Jesus</p>
+                                    <p class="lastname">Bonila</p>
+                                    <p class="major">web</p>
+                                </div>
+                                <i class="fas fa-caret-right arrow"></i>
+                            </div>
+                        </a>
+
+                        <div class="empty-space">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="web col-lg-5">
                     <a href="#">
                         <div class="artistdisplay">
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
-                                <p class="lastname">Smith</p>
+                                <p class="firstname">Nhia</p>
+                                <p class="lastname">Moua</p>
+                                <p class="major">print</p>
+
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
                     <hr>
 
                     <a href="#">
@@ -127,11 +397,13 @@
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
+                                <p class="firstname">Dillon</p>
                                 <p class="lastname">Smith</p>
+                                <p class="major">print</p>
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
                     <hr>
 
                     <a href="#">
@@ -139,11 +411,13 @@
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
-                                <p class="lastname">Smith</p>
+                                <p class="firstname">Patricio</p>
+                                <p class="lastname">DeLara</p>
+                                <p class="major">print</p>
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
                     <hr>
 
                     <a href="#">
@@ -151,11 +425,13 @@
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
-                                <p class="lastname">Smith</p>
+                                <p class="firstname">Amy</p>
+                                <p class="lastname">Medford</p>
+                                <p class="major">print</p>
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
                     <hr>
 
                     <a href="#">
@@ -163,11 +439,13 @@
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
-                                <p class="lastname">Smith</p>
+                                <p class="firstname">Madison</p>
+                                <p class="lastname">Tate</p>
+                                <p class="major">print</p>
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
                     <hr>
 
                     <a href="#">
@@ -175,11 +453,13 @@
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
-                                <p class="lastname">Smith</p>
+                                <p class="firstname">Liva</p>
+                                <p class="lastname">Engere</p>
+                                <p class="major">print</p>
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
                     <hr>
 
                     <a href="#">
@@ -187,190 +467,277 @@
                             <div class="profilepic">
                             </div>
                             <div class="profilename">
-                                <p class="firstname">Squidward</p>
-                                <p class="lastname">Smith</p>
+                                <p class="firstname">Gabriel</p>
+                                <p class="lastname">Iverson</p>
+                                <p class="major">print</p>
                             </div>
                             <i class="fas fa-caret-right arrow"></i>
-                        </div></a>
+                        </div>
+                    </a>
+                    <hr>
 
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Amanda</p>
+                                <p class="lastname">Holt</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
 
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Roy</p>
+                                <p class="lastname">Anthony</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Kyle</p>
+                                <p class="lastname">Johnson</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Patrick</p>
+                                <p class="lastname">Feldmeier</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Temi</p>
+                                <p class="lastname">Mafe</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Aaron</p>
+                                <p class="lastname">Godleski</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Lloyd</p>
+                                <p class="lastname">Ruffin</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Stephanie</p>
+                                <p class="lastname">Vang</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Kemunto</p>
+                                <p class="lastname">Ndege</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Sarah</p>
+                                <p class="lastname">Talbert</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Anthony</p>
+                                <p class="lastname">Siegried</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
+                    <hr>
+
+                    <a href="#">
+                        <div class="artistdisplay">
+                            <div class="profilepic">
+                            </div>
+                            <div class="profilename">
+                                <p class="firstname">Brieanna</p>
+                                <p class="lastname">Watson</p>
+                                <p class="major">print</p>
+                            </div>
+                            <i class="fas fa-caret-right arrow"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="web col-lg-5">
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
-                <hr>
-
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
-                <hr>
-
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
-                <hr>
-
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
-                <hr>
-
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
-                <hr>
-
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
-                <hr>
-
-                <a href="#">
-                    <div class="artistdisplay">
-                        <div class="profilepic">
-                        </div>
-                        <div class="profilename">
-                            <p class="firstname">Squidward</p>
-                            <p class="lastname">Smith</p>
-                        </div>
-                        <i class="fas fa-caret-right arrow"></i>
-                    </div></a>
+            <div class="footer">
+                <a href="https://www.minneapolis.edu/academics/school-design-and-arts"><p class="footerp">&copy; Minneapolis Community and Technical College 2019</p></a>
             </div>
+
         </div>
 
 
-
     </div>
-</div>
-
-<!-- Optional JavaScript -->
-<script>function openNav() {
-    hamburger.classList.add("is-active");
-    document.getElementById("popUpNav").style.height = "100%";
-    console.log("openNav was called");
-}
-
-function closeNav() {
-    hamburger.classList.remove("is-active");
-    document.getElementById("popUpNav").style.height = "0";
-    console.log("closeNav was called");
-}
-
-// Hamburger Menu Spin
-var hamburger = document.querySelector(".hamburger");
 
 
 
-hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() : openNav());
+    <!-- Optional JavaScript -->
+    <script>
+        function openNav() {
+            hamburger.classList.add("is-active");
+            document.getElementById("popUpNav").style.height = "100%";
+            console.log("openNav was called");
+        }
 
-closeNav();
+        function closeNav() {
+            hamburger.classList.remove("is-active");
+            document.getElementById("popUpNav").style.height = "0";
+            console.log("closeNav was called");
+        }
 
-$('#fullpage').fullpage({
-    anchors: ['firstPage', 'secondPage', 'thirdPage'],
-    menu: '#myMenu'});
-</script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
-<script type="text/javascript" src="js/scrolloverflow.js"></script>
-<script type="text/javascript" src="js/fullpage.js"></script>
-<script>
-    $(document).ready(function() {
+        // Hamburger Menu Spin
+        var hamburger = document.querySelector(".hamburger");
+
+
+
+        hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() : openNav());
+
+        closeNav();
+
         $('#fullpage').fullpage({
-            //options here
-            autoScrolling:true,
-            scrollHorizontally: false
+            anchors: ['firstPage', 'secondPage', 'thirdPage'],
+            menu: '#myMenu'
+        });
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="js/scrolloverflow.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                //options here
+                autoScrolling: true,
+                scrollHorizontally: false
 
+            });
+
+            //methods
+            $.fn.fullpage.setAllowScrolling(false);
         });
 
-        //methods
-        $.fn.fullpage.setAllowScrolling(false);
-    });
-
-    $(function(){
-        $('#fullpage').fullpage({
-            scrollOverflow: true,
-            setAllowScrolling: true
+        $(function () {
+            $('#fullpage').fullpage({
+                sectionSelector: '.artist',
+                scrollOverflow: true,
+                setAllowScrolling: true
+            });
         });
-    });
 
+        /**
+         * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+         *
+         * @private
+         * @author Todd Motto
+         * @link https://github.com/toddmotto/foreach
+         * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+         * @callback requestCallback      callback   - Callback function for each iteration.
+         * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+         * @returns {}
+         */
 
-    /**
-     * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
-     *
-     * @private
-     * @author Todd Motto
-     * @link https://github.com/toddmotto/foreach
-     * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
-     * @callback requestCallback      callback   - Callback function for each iteration.
-     * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
-     * @returns {}
-     */
-
-    var forEach = function (t, o, r) {
-        if ("[object Object]" === Object.prototype.toString.call(t))
-            for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
-        else
-            for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
-    };
-
-    var hamburgers = document.querySelectorAll(".hamburger");
-    if (hamburgers.length > 0) {
-        forEach(hamburgers, function (hamburger) {
-            hamburger.addEventListener("click", function () {
-                this.classList.toggle("is-active");
-            }, false);
-        });
-    }
-=======
-
-</script>
+        var forEach = function (t, o, r) {
+            if ("[object Object]" === Object.prototype.toString.call(t))
+                for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+            else
+                for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+        };
+    </script>
 </body>
+
 </html>
