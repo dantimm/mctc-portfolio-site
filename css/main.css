@@ -63,6 +63,11 @@ h2 {
   font-weight: 400;
   font-size: calc(24px + 0.6vw);
   color: #cc8651;
+  transition: .4s;
+}
+
+h2:hover {
+  color: white
 }
 
 h3 {
@@ -114,6 +119,7 @@ a:hover {
 
 .tan {
   color: #cc8651;
+
 }
 
 .magenta {
@@ -122,6 +128,7 @@ a:hover {
 
 .white {
   color: white;
+  transition: .4s;
 }
 
 .navy-bg {
