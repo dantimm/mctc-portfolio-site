@@ -42,10 +42,10 @@
     width: 75px;
 }
 
-body{
+body {
 
     background-repeat: no-repeat;
-    font-family:sans-serif, "Avenir Next";
+    font-family: sans-serif, "Avenir Next";
 }
 
 /* splash logo styles | positioning and sizing */
@@ -53,10 +53,12 @@ body{
     width: 25%;
     position: absolute;
     top: 26%;
-    left: 36%;"
+    left: 36%;
+    "
+
 }
 
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 320px) {
     .splashlogo {
         width: 77%;
         position: absolute;
@@ -83,7 +85,7 @@ body{
     }
 }
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 900px) {
     .splashlogo {
         width: 40%;
         position: absolute;
@@ -101,7 +103,7 @@ body{
 
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     .splashlogo {
         width: 40%;
         position: absolute;
@@ -122,41 +124,48 @@ body{
 
 
 .landing {
-background-color: rgb(31,42,51);
+    background-color: rgb(31, 42, 51);
 
 }
 
 .about {
     background: url("../images/about-bg.jpg")center center;
     background-size: contain;
-    height: auto;;
+    height: auto;
+    ;
 }
 
 .artist {
-    background-color: rgb(31,42,51);
+    background-color: rgb(31, 42, 51);
     padding-top: 11px;
 }
-.artist, h1 {
+
+.artist,
+h1 {
     color: white;
     text-align: center;
     margin-bottom: 49px;
 }
+
 .majors {
     position: relative;
     margin-bottom: 90px;
 
 }
+
 .printitle {
     color: white;
     position: absolute;
     left: 15%;
 
 }
+
 .webtitle {
     color: white;
     position: absolute;
     right: 38%;
 }
+
 .artistcontainer {
     margin: 20px auto;
     height: 75vh;
@@ -166,6 +175,7 @@ background-color: rgb(31,42,51);
 
 
 }
+
 .artistdisplay {
     margin-top: 60px;
     position: relative;
@@ -182,7 +192,7 @@ background-color: rgb(31,42,51);
     opacity: .8;
 }
 
-.artistcontainer::-webkit-scrollbar-corner{
+.artistcontainer::-webkit-scrollbar-corner {
     display: none;
 }
 
@@ -197,6 +207,7 @@ hr {
     background-color: #aa4f2c;
     height: 100PX;
 }
+
 .profilename {
     text-align: right;
     width: 200px;
@@ -204,17 +215,21 @@ hr {
     top: 20px;
     left: 50px;
 }
+
 .firstname {
     font-size: 25px;
     margin-bottom: 0px;
 }
+
 .lastname {
     font-size: 18px;
 }
+
 .print {
     padding: 20px 10px;
     float: left;
 }
+
 .arrow {
     position: absolute;
     top: 35px;
@@ -222,6 +237,7 @@ hr {
     font-size: 35px;
     transition: right ease 0.5s
 }
+
 .web {
     display: inline-block;
     float: right;
@@ -229,17 +245,16 @@ hr {
     padding: 20px 10px;
 }
 
-.print a, .web a {
+.print a,
+.web a {
     color: white;
 }
 
-.print a:hover .arrow{
+.print a:hover .arrow {
     right: 40px;
 }
 
 
-.web a:hover .arrow{
+.web a:hover .arrow {
     right: 40px;
 }
-
-

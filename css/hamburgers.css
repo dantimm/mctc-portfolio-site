@@ -1080,6 +1080,16 @@ button:focus {
   font-size: 60px;
 }
 
+#nav-hr {
+  width: 175px;
+  border: .75px solid #aa4f2c !important;
+}
+
+.social-icons {
+  opacity: .75;
+}
+
+
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
   .overlay a {
