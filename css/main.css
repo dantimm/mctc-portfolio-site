@@ -80,6 +80,11 @@ h5 {
   font-size: calc(12px + 0.7vw);
 }
 
+#about h5 {
+  font-weight: 400;
+  font-size: calc(15px + 1vw);
+}
+
 p {
   font-weight: 300;
   font-size: calc(15px + 0.4vw);
@@ -503,7 +508,7 @@ hr {
 
   #about h5 {
     font-weight: 400;
-    font-size: calc(15px + 0.8vw);
+    font-size: calc(15px + 1vw);
   }
 
   #about p {
