@@ -248,7 +248,7 @@ body {
 }
 
 .landing {
-  background-color: rgb(31, 42, 51);
+  background-color: #19252C;
   margin-top: 0;
 
 }
@@ -261,7 +261,7 @@ body {
 }
 
 .artist {
-  background-color: rgb(31, 42, 51);
+  background-color: #19252C;
   padding-top: 11px;
   height: 100vh !important;
   display: block;
@@ -271,16 +271,23 @@ body {
 h1 {
   color: white;
   text-align: center;
-  margin-bottom: 49px;
-  margin-top: 105px;
+  margin-top: 135px;
 }
 
 .majors {
-  position: relative;
   margin-bottom: 90px;
+  margin-top: 70px;
 
 }
-
+.major {
+  top: 17px;
+  width: 113px;
+  left: 124%;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-style: oblique;
+}
 .printitle {
   color: white;
   position: absolute;
@@ -374,6 +381,10 @@ hr {
   height: 900px;
   padding: 20px 10px;
 }
+.empty-space {
+  height: 230px;
+}
+
 
 .print a,
 .web a {
@@ -472,6 +483,27 @@ hr {
 #b-icon {
   font-size: 1.25rem;
   margin-top: -4px
+}
+
+.footer {
+  background-color: #1F2A33;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.footerp {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 14px;
+  color: white;
+  opacity: .8;
+  display: block;
+}
+.footerp:hover{
+  color: #aa4f2c;
 }
 
 
