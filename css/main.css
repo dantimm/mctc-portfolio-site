@@ -362,7 +362,7 @@ hr {
 
 /* mobile viewport for artist section _____*/
 
-@media (max-width: 320px) {
+@media (max-width: 465px) {
   .profilename {
     text-align: right;
     width: 200px;

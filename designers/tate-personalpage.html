@@ -23,16 +23,20 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background: white">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
-        <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo" /></a>
+        <a class="navbar-brand" href="index.html"><img src="../svg/nav-brand.svg" alt="" id="nav-logo"></a>
         <div class="ml-auto">
             <div class="menu-toggle-wrapper">
                 <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu"
                     aria-controls="navigation" aria-expanded="true">
                     <span class="hamburger-box">
-                        <span class="hamburger-inner"> </span>
+                        <span class="hamburger-inner">
+
+                        </span>
                     </span>
                 </button>
+
             </div>
+
         </div>
         <div id="popUpNav" class="overlay" onclick="closeNav()">
             <div class="overlay-content" id="myMenu">
@@ -63,27 +67,27 @@
                 <div class="row">
                     <div class="col-xl-5" id="sidebar">
                         <div class="artist-info text-center">
-                            <img src="../images/me.jpg" alt="dan timm headshot" class="img-fluid"
+                            <img src="../images/headshots/tate.jpg" alt="dan timm headshot" class="img-fluid"
                                 style="max-width: 200px;border-radius: 300px">
-                            <h2 class="artist-text" id="artist-name">Dan Timm</h2>
+                            <h2 class="artist-text" id="artist-name">Madison Tate</h2>
                             <hr id="artist-hr">
-                            <h3 class="artist-text" id="major">Web</h3>
+                            <h3 class="artist-text" id="major">Print</h3>
                             <div class="w-75 text-center st-con">
                                 <p class="artist-text" id="artist-stmt">
-                                    I think as a designer it’s very important that I push myself out of my comfort zone
-                                    in order to make great work. Most importantly, keep it simple stupid.
+                                    I try my best to express my personality through my art. I gather inspiration from
+                                    Japanese Art, Anime, colors, music, and video games.
                                 </p>
                             </div>
                             <div id="link-area">
                                 <div class="mx-auto" id="links-section">
                                     <div class="links">
-                                        <a href="https://dantimm.io/">
-                                            <i class="fas fa-globe white link-icon text-center mx-auto"></i>
-                                            <p class="white links text-center mx-auto">dantimm.io</p>
+                                        <a href="https://skroaladoodles.tumblr.com/">
+                                            <i class="fab fa-tumblr-square white link-icon text-center mx-auto"></i>
+                                            <p class="white links text-center mx-auto">Tumblr</p>
                                         </a>
                                     </div>
                                     <div class="links">
-                                        <a href="https://www.behance.net/dantimm">
+                                        <a href="https://www.behance.net/maddiet8">
                                             <i class="fab fa-behance white link-icon text-center mx-auto"></i>
                                             <p class="white links text-center mx-auto">Behance</p>
                                         </a>
@@ -100,16 +104,18 @@
                                 <div class="row mb-3">
                                     <div class="col-lg-6">
                                         <div class="card">
-                                            <a class="lightbox" href="../images/e1.jpg">
-                                                <img src="../images/e1.jpg" alt="Park" class="card-img-top">
+                                            <a class="lightbox" href="../images/examples/tate/cover1web.jpg">
+                                                <img src="../images/examples/tate/cover12x4.jpg" alt="Park"
+                                                    class="card-img-top">
                                             </a>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6">
                                         <div class="card">
-                                            <a class="lightbox" href="../images/e2.jpg">
-                                                <img src="../images/e2.jpg" alt="Park" class="card-img-top">
+                                            <a class="lightbox" href="../images/examples/tate/cover2-web.jpg">
+                                                <img src="../images/examples/tate/cover22x4.jpg" alt="Park"
+                                                    class="card-img-top">
                                             </a>
                                         </div>
                                     </div>
@@ -117,16 +123,18 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="card">
-                                            <a class="lightbox" href="../images/e3.jpg">
-                                                <img src="../images/e3.jpg" alt="Park" class="card-img-top">
+                                            <a class="lightbox" href="../images/examples/tate/sonny-web.jpg">
+                                                <img src="../images/examples/tate/sonny2x4.jpg" alt="Park"
+                                                    class="card-img-top">
                                             </a>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6">
                                         <div class="card">
-                                            <a class="lightbox" href="../images/e4.jpg">
-                                                <img src="../images/e4.jpg" alt="Park" class="card-img-top">
+                                            <a class="lightbox" href="../images/examples/tate/wonka-web.jpg">
+                                                <img src="../images/examples/tate/wonka2x4.jpg" alt="Park"
+                                                    class="card-img-top">
                                             </a>
                                         </div>
                                     </div>
@@ -148,67 +156,68 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Optional JavaScript -->
-        <script>
-            function openNav() {
-                hamburger.classList.add("is-active");
-                document.getElementById("popUpNav").style.height = "100%";
-                console.log("openNav was called");
-            }
+    <!-- Optional JavaScript -->
+    <script>
+        function openNav() {
+            hamburger.classList.add("is-active");
+            document.getElementById("popUpNav").style.height = "100%";
+            console.log("openNav was called");
+        }
 
-            function closeNav() {
-                hamburger.classList.remove("is-active");
-                document.getElementById("popUpNav").style.height = "0";
-                console.log("closeNav was called");
-            }
+        function closeNav() {
+            hamburger.classList.remove("is-active");
+            document.getElementById("popUpNav").style.height = "0";
+            console.log("closeNav was called");
+        }
 
-            // Hamburger Menu Spin
-            var hamburger = document.querySelector(".hamburger");
+        // Hamburger Menu Spin
+        var hamburger = document.querySelector(".hamburger");
 
 
 
-            hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() :
-                openNav());
+        hamburger.addEventListener('click', () => hamburger.classList.contains('is-active') ? closeNav() :
+            openNav());
 
-            closeNav();
+        closeNav();
 
+        $('#fullpage').fullpage({
+            anchors: ['firstPage', 'secondPage', 'thirdPage'],
+            menu: '#myMenu'
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script>
+        $(document).ready(function () {
             $('#fullpage').fullpage({
-                anchors: ['firstPage', 'secondPage', 'thirdPage'],
-                menu: '#myMenu'
+                //options here
+                autoScrolling: true,
+                scrollHorizontally: true
             });
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-        <script>
-            baguetteBox.run('.tz-gallery');
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
-        <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-        <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
 
-        <script type="text/javascript" src="js/fullpage.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('#fullpage').fullpage({
-                    //options here
-                    autoScrolling: true,
-                    scrollHorizontally: true
-                });
-
-                //methods
-                $.fn.fullpage.setAllowScrolling(true);
-            });
-        </script>
+            //methods
+            $.fn.fullpage.setAllowScrolling(true);
+        });
+    </script>
 </body>
 
 </html>
