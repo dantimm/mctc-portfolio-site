@@ -351,6 +351,131 @@ hr {
   top: 20px;
   left: 50px;
 }
+.hiddenhr {
+  display: none;
+}
+.empty-space2{
+  display: none;
+}
+
+.artistbtn {
+  background: transparent;
+  color: white;
+  display: none;
+}
+.artistbtn:hover {
+  color: #aa4f2c;
+  border: none;
+}
+.btn:focus {
+  box-shadow: none!important;
+  border: none!important;
+}
+.artist-menu {
+  display: none;
+}
+
+.majoritem {
+  color: white;
+  margin-left: 33px;
+  margin-top: 1px;
+}
+
+.majoritem:hover {
+  background: none;
+  color: #aa4f2c;
+}
+.mobileartist {
+  margin-bottom: 100px;
+  display: none;
+}
+.brienna {
+  margin-bottom: 50px;
+}
+/* mobile viewport for artist section _____*/
+@media (max-width: 991px){
+  .empty-space {
+    display: none;
+  }
+}
+
+@media (max-width: 465px) {
+  .profilename {
+    text-align: right;
+    width: 200px;
+    position: absolute;
+    top: 22px;
+    left: -21px;
+  }
+  .firstname {
+    font-size: 18px!important;
+  }
+  .lastname {
+    font-size: 14px!important;
+  }
+  .empty-space {
+    display: none;
+  }
+  .hiddenhr {
+   display: block!important;
+  }
+  .empty-space2{
+
+    height: 100px;
+  }
+  .web {
+    margin-bottom: 1520px;
+  }
+  .major {
+    top: 17px;
+    width: 113px;
+    left: 100%;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+  }
+  .profilepic {
+    height: 75px;
+    width: 75px;
+  }
+  .artistdisplay {
+    margin-top: 30px;
+  }
+  .print {
+    margin-bottom: -67px;
+  }
+  .footerp {
+    font-size: 11px!important;
+  }
+  .artistbtn {
+    display: block;
+    top: -45px;
+    left: 145%;
+  }
+
+  .artist, h1 {
+    margin-right: 100px;
+  }
+
+  .print {
+    display: none;
+  }
+  #web {
+    display: none;
+  }
+  .mobileartist {
+    display: block;
+  }
+
+  .artist-menu {
+    background: none;
+    border: none;
+    padding-top: 4px;
+  }
+
+}
+
+/*__________________________________________*/
 
 .hiddenhr {
   display: none;
