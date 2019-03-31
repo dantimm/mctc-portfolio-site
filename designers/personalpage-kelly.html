@@ -8,9 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/hamburgers.css">
     <link rel="stylesheet" href="../fonts/fonts-avenir.css">
@@ -22,126 +22,146 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background: white">
-<nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
-    <a class="navbar-brand" href="index.html"><img src="../svg/nav-brand.svg" alt="" id="nav-logo"></a>
-    <div class="ml-auto">
-        <div class="menu-toggle-wrapper">
-            <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu"
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
+        <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo" /></a>
+        <div class="ml-auto">
+            <div class="menu-toggle-wrapper">
+                <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu"
                     aria-controls="navigation" aria-expanded="true">
                     <span class="hamburger-box">
-                        <span class="hamburger-inner">
-
-                        </span>
+                        <span class="hamburger-inner"> </span>
                     </span>
-            </button>
-
+                </button>
+            </div>
         </div>
-
-    </div>
-    <div id="popUpNav" class="overlay" onclick="closeNav()">
-
-        <div class="overlay-content" id="myMenu">
-            <a data-menuanchor="firstPage" href="../index.html" data-scroll>
-                <h2>HOME</h2>
-            </a>
-            <a data-menuanchor="secondPage" href="../index.html#about" data-scroll>
-                <h2>SHOW INFO</h2>
-            </a>
-            <a data-menuanchor="thirdPage" href="../index.html#artist" data-scroll>
-                <h2>DESIGNERS</h2>
-            </a>
+        <div id="popUpNav" class="overlay" onclick="closeNav()">
+            <div class="overlay-content" id="myMenu">
+                <a data-menuanchor="firstPage" href="../index.html" data-scroll>
+                    <h2>HOME</h2>
+                </a>
+                <a data-menuanchor="secondPage" href="../index.html#about" data-scroll>
+                    <h2>SHOW INFO</h2>
+                </a>
+                <a data-menuanchor="thirdPage" href="../index.html#artist" data-scroll>
+                    <h2>DESIGNERS</h2>
+                </a>
+                <hr id="nav-hr" />
+                <div class="mx-auto social-icons">
+                    <a href="https://www.instagram.com/mplscollegedesignshow/" class=" d-inline align-bottom">
+                        <i class="fab fa-instagram white mx-1 "></i></a>
+                    <a href="https://www.facebook.com/mplscollegedesignshow/" class=" d-inline align-bottom">
+                        <i class="fab fa-facebook-f white mx-1"></i></a>
+                    <a href="https://twitter.com/mplsdesignshow" class=" d-inline align-bottom ">
+                        <i class="fab fa-twitter white mx-1"></i></a>
+                </div>
+            </div>
         </div>
-    </div>
-</nav>
-<div id="fullpage">
-    <div class="section fp-noscroll ">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-5" id="sidebar">
-                    <div class="artist-info text-center">
-                        <img src="../images/headshots/kelly.jpg" alt="brigid kelly headshot" class="img-fluid"
-                             style="max-width: 200px;border-radius: 300px">
-                        <h2 class="artist-text" id="artist-name">Brigid Kelly</h2>
-                        <hr id="artist-hr">
-                        <h3 class="artist-text" id="major">Web</h3>
-                        <div class="w-75 text-center st-con">
-                            <p class="artist-text" id="artist-stmt">
-                                I like to design, I love to code, and creating beautiful websites that are user-friendly is my passion. After all, life's too short to have an ugly website.
-                            </p>
-                        </div>
-                        <div id="link-area">
-                            <div class="mx-auto" id="links-section">
-                                <div class="links">
-                                    <a href="https://brigidkellymn.com/">
-                                        <i class="fas fa-globe white link-icon text-center mx-auto"></i>
-                                        <p class="white links text-center mx-auto">brigidkellymn.com</p>
-                                    </a>
-                                </div>
-                                <div class="links">
-                                    <a href="https://www.linkedin.com/in/brigid-kelly-5b7839181/
+    </nav>
+    <div id="fullpage">
+        <div class="section fp-noscroll ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-5" id="sidebar">
+                        <div class="artist-info text-center">
+                            <img src="../images/headshots/kelly.jpg" alt="brigid kelly headshot" class="img-fluid"
+                                style="max-width: 200px;border-radius: 300px">
+                            <h2 class="artist-text" id="artist-name">Brigid Kelly</h2>
+                            <hr id="artist-hr">
+                            <h3 class="artist-text" id="major">Web</h3>
+                            <div class="w-75 text-center st-con">
+                                <p class="artist-text" id="artist-stmt">
+                                    I like to design, I love to code, and creating beautiful websites that are
+                                    user-friendly is my passion. After all, life's too short to have an ugly website.
+                                </p>
+                            </div>
+                            <div id="link-area">
+                                <div class="mx-auto" id="links-section">
+                                    <div class="links">
+                                        <a href="https://brigidkellymn.com/">
+                                            <i class="fas fa-globe white link-icon text-center mx-auto"></i>
+                                            <p class="white links text-center mx-auto">brigidkellymn.com</p>
+                                        </a>
+                                    </div>
+                                    <div class="links">
+                                        <a href="https://www.linkedin.com/in/brigid-kelly-5b7839181/
 ">
-                                        <i class="fab fa-linkedin-in white link-icon text-center mx-auto"></i>
-                                        <p class="white links text-center mx-auto">Linked In</p>
-                                    </a>
+                                            <i class="fab fa-linkedin-in white link-icon text-center mx-auto"></i>
+                                            <p class="white links text-center mx-auto">Linked In</p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-7" id="artwork">
-                    <h1 style="text-align: center" id="feat">Featured Work</h1>
-                    <div id="gallery" class="container">
-                        <div class="tz-gallery">
+                    <div class="col-xl-7" id="artwork">
+                        <h1 style="text-align: center" id="feat">Featured Work</h1>
+                        <div id="gallery" class="container">
+                            <div class="tz-gallery">
 
-                            <div class="row mb-3">
-                                <div class="col-lg-6">
-                                    <div class="card">
-                                        <a class="lightbox" href="../images/examples/kelly/1.jpg">
-                                            <img src="../images/examples/kelly/kelly-1.jpg" alt="1" class="card-img-top">
-                                        </a>
+                                <div class="row mb-3">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <a class="lightbox" href="../images/examples/kelly/1.jpg">
+                                                <img src="../images/examples/kelly/kelly-1.jpg" alt="1"
+                                                    class="card-img-top">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <a class="lightbox" href="../images/examples/kelly/2.jpg">
+                                                <img src="../images/examples/kelly/kelly-2.jpg" alt="2"
+                                                    class="card-img-top">
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-6">
-                                    <div class="card">
-                                        <a class="lightbox" href="../images/examples/kelly/2.jpg">
-                                            <img src="../images/examples/kelly/kelly-2.jpg" alt="2" class="card-img-top">
-                                        </a>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <a class="lightbox" href="../images/examples/kelly/3.jpg">
+                                                <img src="../images/examples/kelly/kelly-3.jpg" alt="3"
+                                                    class="card-img-top">
+                                            </a>
+                                        </div>
                                     </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <a class="lightbox" href="../images/examples/kelly/4.jpg">
+                                                <img src="../images/examples/kelly/kelly-4.jpg" alt="4"
+                                                    class="card-img-top">
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
+
                             </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="card">
-                                        <a class="lightbox" href="../images/examples/kelly/3.jpg">
-                                            <img src="../images/examples/kelly/kelly-3.jpg" alt="3" class="card-img-top">
-                                        </a>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-6">
-                                    <div class="card">
-                                        <a class="lightbox" href="../images/examples/kelly/4.jpg">
-                                            <img src="../images/examples/kelly/kelly-4.jpg" alt="4" class="card-img-top">
-                                        </a>
-                                    </div>
-                                </div>
-
+                            <div style="text-align: center">
+                                <p class="white mx-auto"><a class="btn btn-secondary align-middle" role="button"
+                                        id="go-back" data-menuanchor="thirdPage" href="../index.html#artist"
+                                        data-scroll><i class="fas fa-angle-left white mx-auto align-middle"
+                                            id="b-icon"></i> &nbsp Go
+                                        Back</a></p>
+                                <p></p>
                             </div>
-
                         </div>
-
-                        <div style="text-align: center">
-                            <p class="white mx-auto"><a class="btn btn-secondary align-middle" role="button"
-                                                        id="go-back" data-menuanchor="thirdPage" href="../index.html#artist"
-                                                        data-scroll><i class="fas fa-angle-left white mx-auto align-middle"
-                                                                       id="b-icon"></i> &nbsp Go
-                                Back</a></p>
-                            <p></p>
+                        <div class="footer" id="mobile-footer">
+                            <a href="https://www.minneapolis.edu/academics/school-design-and-arts">
+                                <p class="footerp">&copy; Minneapolis Community and Technical College 2019</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="footer" id="desktop-footer">
+            <a href="https://www.minneapolis.edu/academics/school-design-and-arts">
+                <p class="footerp">&copy; Minneapolis Community and Technical College 2019</p>
+            </a>
         </div>
     </div>
 
@@ -181,13 +201,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
     <script type="text/javascript" src="js/scrolloverflow.min.js"></script>

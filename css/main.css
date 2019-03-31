@@ -351,10 +351,12 @@ hr {
   top: 20px;
   left: 50px;
 }
+
 .hiddenhr {
   display: none;
 }
-.empty-space2{
+
+.empty-space2 {
   display: none;
 }
 
@@ -363,14 +365,17 @@ hr {
   color: white;
   display: none;
 }
+
 .artistbtn:hover {
   color: #aa4f2c;
   border: none;
 }
+
 .btn:focus {
-  box-shadow: none!important;
-  border: none!important;
+  box-shadow: none !important;
+  border: none !important;
 }
+
 .artist-menu {
   display: none;
 }
@@ -385,15 +390,18 @@ hr {
   background: none;
   color: #aa4f2c;
 }
+
 .mobileartist {
   margin-bottom: 100px;
   display: none;
 }
+
 .brienna {
   margin-bottom: 50px;
 }
+
 /* mobile viewport for artist section _____*/
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .empty-space {
     display: none;
   }
@@ -407,25 +415,32 @@ hr {
     top: 22px;
     left: -21px;
   }
+
   .firstname {
-    font-size: 18px!important;
+    font-size: 18px !important;
   }
+
   .lastname {
-    font-size: 14px!important;
+    font-size: 14px !important;
   }
+
   .empty-space {
     display: none;
   }
+
   .hiddenhr {
-   display: block!important;
+    display: block !important;
   }
-  .empty-space2{
+
+  .empty-space2 {
 
     height: 100px;
   }
+
   .web {
     margin-bottom: 1520px;
   }
+
   .major {
     top: 17px;
     width: 113px;
@@ -434,35 +449,43 @@ hr {
     color: white;
     font-size: 14px;
   }
+
   .profilepic {
     height: 75px;
     width: 75px;
   }
+
   .artistdisplay {
     margin-top: 30px;
   }
+
   .print {
     margin-bottom: -67px;
   }
+
   .footerp {
-    font-size: 11px!important;
+    font-size: 11px !important;
   }
+
   .artistbtn {
     display: block;
     top: -45px;
     left: 145%;
   }
 
-  .artist, h1 {
+  .artist,
+  h1 {
     margin-right: 100px;
   }
 
   .print {
     display: none;
   }
+
   #web {
     display: none;
   }
+
   .mobileartist {
     display: block;
   }
@@ -689,11 +712,43 @@ hr {
 
 .footer {
   background-color: #1F2A33;
-  height: 60px;
+  height: 62px;
   position: absolute;
   bottom: 0;
   width: 100%;
 
+}
+
+#desktop-footer {
+  position: relative !important;
+  margin-top: -15px;
+}
+
+#mobile-footer {
+  position: relative !important;
+
+}
+
+@media (min-width: 1200px) {
+  #mobile-footer {
+    display: none;
+  }
+
+  #desktop-footer {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  #desktop-footer {
+    display: none;
+
+  }
+
+  .col-xl-7 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 .footerp {
@@ -703,12 +758,12 @@ hr {
   color: white;
   opacity: .8;
   display: block;
+  padding-top: 15px;
 }
 
 .footerp:hover {
   color: #aa4f2c;
 }
-
 
 /* INTERIOR PAGE Mobile Phone QUERY */
 

@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/hamburgers.css" />
+  <link rel="stylesheet" href="fonts/fonts-avenir.css" />
+  <link rel="stylesheet" href="css/fullpage.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <title>Home</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg" id="#menu">
+    <a class="navbar-brand" href="index.html"><img src="svg/nav-brand.svg" alt="" id="nav-logo" /></a>
+    <div class="ml-auto">
+      <div class="menu-toggle-wrapper">
+        <button class="menu-toggle hamburger hamburger--spring" type="button" aria-label="Menu"
+          aria-controls="navigation" aria-expanded="true">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"> </span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div id="popUpNav" class="overlay" onclick="closeNav()">
+      <div class="overlay-content" id="myMenu">
+        <a data-menuanchor="firstPage" href="index.html" data-scroll>
+          <h2>HOME</h2>
+        </a>
+        <a data-menuanchor="secondPage" href="index.html#about" data-scroll>
+          <h2>SHOW INFO</h2>
+        </a>
+        <a data-menuanchor="thirdPage" href="index.html#artist" data-scroll>
+          <h2>DESIGNERS</h2>
+        </a>
+        <hr id="nav-hr" />
+        <div class="mx-auto social-icons">
+          <a href="https://www.instagram.com/mplscollegedesignshow/" class=" d-inline align-bottom">
+            <i class="fab fa-instagram white mx-1 "></i></a>
+          <a href="https://www.facebook.com/mplscollegedesignshow/" class=" d-inline align-bottom">
+            <i class="fab fa-facebook-f white mx-1"></i></a>
+          <a href="https://twitter.com/mplsdesignshow" class=" d-inline align-bottom ">
+            <i class="fab fa-twitter white mx-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="fullpage">
+    <div class="section landing">
+      <img class="arc" src="svg/arc.svg" alt="arc ornament" />
+      <img class="steps" src="svg/steps.svg" alt="steps ornament" />
+
+      <img class="splashlogo" src="images/logo.svg" alt="logo" />
+    </div>
+    <div class="section about" id="about">
+      <div class="container mt-4">
+        <div class="row mb-5">
+          <div class="col-sm-2"></div>
+          <div class="col ml-2">
+            <h5 class="text-uppercase font-weight-bold">Tuesday</h5>
+            <h2>7 May 2019</h2>
+            <h5>11am - 7pm</h5>
+          </div>
+          <div class="col-1 vertical-rule mr-3"></div>
+          <div class="col mr-1">
+            <h5 class="text-uppercase font-weight-bold">Wednesday</h5>
+            <h2>8 May 2019</h2>
+            <h5>11am - 7pm</h5>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col ml-2">
+            <h5 class="font-weight-bold text-uppercase">
+              Minneapolis Community and Technical College
+            </h5>
+            <p>
+              Whitney Hall, Room L3000<br />
+              1501 Hennepin Ave<br />
+              Minneapolis, Minnesota 55403
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col ml-2">
+            <div class="space"></div>
+            <p class="">
+              We are a collective of innovators who reflect the communities
+              that make up Minneapolis College. As designers we are connected
+              by a common desire to tell stories, through our work, that
+              represent our diverse voices.
+            </p>
+            <p class="">
+              It's more than a show—it's an introduction to the next
+              generation of design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section artist fp-scrollable fp-scroller iScrollVerticalScrollbar iScrollIndicator fp-section"
+      id="artist">
+      <img class="arc" src="svg/arc.svg" alt="arc ornament">
+      <img class="steps" src="svg/steps.svg" alt="steps ornament">
+      <div class="container">
+
+
+        <h1> The Designers</h1>
+
+
+        <div class="btn-group ">
+          <button type="button" class="btn artistbtn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Major
+          </button>
+          <div class="dropdown-menu artist-menu">
+            <a class="dropdown-item majoritem" href="index.html#artist" data-filter="printfilter">Print</a>
+            <a class="dropdown-item majoritem" href="index.html#artist" data-filter="webfilter">Web</a>
+            <a class="dropdown-item majoritem" href="index.html#artist" data-filter="All">All</a>
+          </div>
+        </div>
+
+
+        <div class="print col-lg-5" id="print">
+          <div>
+
+            <a href="designers/personalpage-sanchez.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/sanchez.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Kat </p>
+                  <p class="lastname">Sanchez</p>
+                  <p class="major">print + web</p>
+
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/timm-personalpage.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/timm.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Dan</p>
+                  <p class="lastname">Timm</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/splinter-personal.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/splinter.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Justin</p>
+                  <p class="lastname">Splinter</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+            <hr>
+
+            <a href="designers/taylor-personapage.html">
+
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/taylor.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Meagan</p>
+                  <p class="lastname"> Taylor</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+            <hr>
+
+            <a href="designers/personalpage-peura.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/peura.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+
+                  <p class="firstname">Maija</p>
+                  <p class="lastname">Peura</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/underwood-personalpage.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/underwood.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+
+                  <p class="firstname">Shannon</p>
+                  <p class="lastname">Underwood</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-miller.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/miller.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+
+                  <p class="firstname">Taylor</p>
+                  <p class="lastname">Miller</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-drabik.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/drabik.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+
+                  <p class="firstname">Mary</p>
+                  <p class="lastname">Drabik</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/mc\">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/mcfarlan.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+
+                  <p class="firstname">Ry</p>
+                  <p class="lastname">McFarlan</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-kelly.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/kelly.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+
+                  <p class="firstname">Brigid</p>
+                  <p class="lastname">Kellly</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-kennedy.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/kennedy.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Patricia</p>
+                  <p class="lastname">Kennedy</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-hein.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/hein.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Rose</p>
+                  <p class="lastname">Hein</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/steinback-personalpage.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/steinbach.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Joseph</p>
+                  <p class="lastname">Steinbach</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+            <hr>
+
+            <a href="designers/personalpage-bonilla.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/sanchez.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Xavier</p>
+                  <p class="lastname">Bonilla</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-macdonald.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/macdonald.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Jonathan</p>
+                  <p class="lastname">MacDonald</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+            <hr>
+
+            <a href="designers/personalpage-malec.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/malec.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Jesse</p>
+                  <p class="lastname">Malec</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+
+            <hr>
+
+            <a href="designers/personalpage-holtzman.html">
+              <div class="artistdisplay">
+                <div class="profilepic">
+                  <img src="images/headshots/holtzman.jpg" alt="" class="img-fluid"
+                    style="max-width: 100px;border-radius: 300px">
+                </div>
+                <div class="profilename">
+                  <p class="firstname">Alex</p>
+                  <p class="lastname">Holtzman</p>
+                  <p class="major">web</p>
+                </div>
+                <i class="fas fa-caret-right arrow"></i>
+              </div>
+            </a>
+
+
+
+
+
+            <div class="empty-space">
+
+            </div>
+
+            <hr class="hiddenhr">
+
+
+
+          </div>
+        </div>
+        <div class="web col-lg-5" id="web">
+          <a href="designers/personalpage-moua.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/moua.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Nhia</p>
+                <p class="lastname">Moua</p>
+                <p class="major">print</p>
+
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/smith-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/smith.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Dillon</p>
+                <p class="lastname">Smith</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-delara.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/delara.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Patricio</p>
+                <p class="lastname">DeLara</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-medford.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/medford.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Amy</p>
+                <p class="lastname">Medford</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/tate-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/tate.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Madison</p>
+                <p class="lastname">Tate</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-engere.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/engere.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Liva</p>
+                <p class="lastname">Engere</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-iverson.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/iverson.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Gabriel</p>
+                <p class="lastname">Iverson</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-holt.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/holt.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Amanda</p>
+                <p class="lastname">Holt</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/szolwinski-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/roy.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Roy</p>
+                <p class="lastname">Anthony</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-johnson.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/johnson.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Kyle</p>
+                <p class="lastname">Johnson</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-feldmeier.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/feldmeier.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Patrick</p>
+                <p class="lastname">Feldmeier</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-mafe.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/mafe.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Temi</p>
+                <p class="lastname">Mafe</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-godleski.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/godleski.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Aaron</p>
+                <p class="lastname">Godleski</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-ruffin.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/ruffin.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Lloyd</p>
+                <p class="lastname">Ruffin</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/vang-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/vang.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Stephanie</p>
+                <p class="lastname">Vang</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/personalpage-ndege.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/ndege.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Kemunto</p>
+                <p class="lastname">Ndege</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/talbert-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/talbert.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Sarah</p>
+                <p class="lastname">Talbert</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/siegfried-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/siegfried.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Anthony</p>
+                <p class="lastname">Siegried</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+          <hr>
+
+          <a href="designers/watson-personalpage.html">
+            <div class="artistdisplay">
+              <div class="profilepic">
+                <img src="images/headshots/watson.jpg" alt="" class="img-fluid"
+                  style="max-width: 100px;border-radius: 300px">
+              </div>
+              <div class="profilename">
+                <p class="firstname">Brieanna</p>
+                <p class="lastname">Watson</p>
+                <p class="major">print</p>
+              </div>
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </a>
+
+        </div>
+        <div class="empty-space2">
+
+        </div>
+      </div>
+
+      <!--___________________________Mobile artist section  _________________-->
+
+
+      <div class="col-sm-12 mobileartist" id="mobile-artist">
+
+
+        <a href="designers/splinter-personal.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/splinter.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Justin</p>
+              <p class="lastname">Splinter</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter">
+
+        <a href="designers/timm-personalpage.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/timm.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Dan</p>
+              <p class="lastname">Timm</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/taylor-personapage.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/taylor.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Meagan</p>
+              <p class="lastname"> Taylor</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-peura.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/peura.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Maija</p>
+              <p class="lastname">Peura</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter">
+
+        <a href="designers/underwood-personalpage.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/underwood.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Shannon</p>
+              <p class="lastname">Underwood</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-sanchez.html" class="all webfilter printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/sanchez.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Kat </p>
+              <p class="lastname">Sanchez</p>
+              <p class="major">print + web</p>
+
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter printfilter">
+        <a href="designers/personalpage-miller.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/miller.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Taylor</p>
+              <p class="lastname">Miller</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-drabik.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/drabik.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Mary</p>
+              <p class="lastname">Drabik</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-mcfarlan.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/mcfarlan.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Ry</p>
+              <p class="lastname">McFarlan</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-kelly.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/kelly.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Brigid</p>
+              <p class="lastname">Kellly</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-kennedy.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/kennedy.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Patricia</p>
+              <p class="lastname">Kennedy</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-hein.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/hein.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Rose</p>
+              <p class="lastname">Hein</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/steinback-personalpage.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/steinbach.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Joseph</p>
+              <p class="lastname">Steinbach</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-bonilla.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/xavier.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Xavier</p>
+              <p class="lastname">Bonilla</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-macdonald.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/macdonald.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Jonathan</p>
+              <p class="lastname">MacDonald</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+        <a href="designers/personalpage-malec.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/malec.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Jesse</p>
+              <p class="lastname">Malec</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+
+        <a href="designers/personalpage-holtzman.html" class="all webfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/holtzman.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Alex</p>
+              <p class="lastname">Holtzman</p>
+              <p class="major">web</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+        <hr class="all webfilter">
+
+
+
+        <div class="empty-space">
+
+        </div>
+
+        <a href="designers/personalpage-moua.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/moua.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Nhia</p>
+              <p class="lastname">Moua</p>
+              <p class="major">print</p>
+
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/smith-personalpage.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/smith.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Dillon</p>
+              <p class="lastname">Smith</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-delara.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/delara.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Patricio</p>
+              <p class="lastname">DeLara</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-medford.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/medford.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Amy</p>
+              <p class="lastname">Medford</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/tate-personalpage.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/tate.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Madison</p>
+              <p class="lastname">Tate</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-engere.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/engere.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Liva</p>
+              <p class="lastname">Engere</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-iverson.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/iverson.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Gabriel</p>
+              <p class="lastname">Iverson</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-holt.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/holt.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Amanda</p>
+              <p class="lastname">Holt</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/szolwinski-personalpage.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/roy.jpg" alt="" class="img-fluid" style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Roy</p>
+              <p class="lastname">Anthony</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-johnson.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/johnson.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Kyle</p>
+              <p class="lastname">Johnson</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-feldmeier.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/feldmeier.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Patrick</p>
+              <p class="lastname">Feldmeier</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-mafe.html class=" all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/mafe.jpg" alt="" class=" img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Temi</p>
+              <p class="lastname">Mafe</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-godleski.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/godleski.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Aaron</p>
+              <p class="lastname">Godleski</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-ruffin.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/ruffin.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Lloyd</p>
+              <p class="lastname">Ruffin</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/vang-personalpage.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/vang.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Stephanie</p>
+              <p class="lastname">Vang</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/personalpage-ndege.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/ndege.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Kemunto</p>
+              <p class="lastname">Ndege</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/talbert-personalpage.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/talbert.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Sarah</p>
+              <p class="lastname">Talbert</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/siegfried-personalpage.html" class="all printfilter">
+          <div class="artistdisplay">
+            <div class="profilepic">
+              <img src="images/headshots/siegfried.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Anthony</p>
+              <p class="lastname">Siegried</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+        <hr class="all printfilter">
+
+        <a href="designers/watson-personalpage.html" class="all printfilter">
+          <div class="artistdisplay brienna">
+            <div class="profilepic">
+              <img src="images/headshots/watson.jpg" alt="" class="img-fluid"
+                style="max-width: 75px;border-radius: 300px">
+            </div>
+            <div class="profilename">
+              <p class="firstname">Brieanna</p>
+              <p class="lastname">Watson</p>
+              <p class="major">print</p>
+            </div>
+            <i class="fas fa-caret-right arrow"></i>
+          </div>
+        </a>
+
+
+
+
+
+      </div>
+
+
+
+
+
+      <div class="footer">
+        <a href="https://www.minneapolis.edu/academics/school-design-and-arts">
+          <p class="footerp">&copy; Minneapolis Community and Technical College 2019</p>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script>
+    function openNav() {
+      hamburger.classList.add("is-active");
+      document.getElementById("popUpNav").style.height = "100%";
+      console.log("openNav was called");
+    }
+
+    function closeNav() {
+      hamburger.classList.remove("is-active");
+      document.getElementById("popUpNav").style.height = "0";
+      console.log("closeNav was called");
+    }
+
+    // Hamburger Menu Spin
+    var hamburger = document.querySelector(".hamburger");
+
+    hamburger.addEventListener("click", () =>
+      hamburger.classList.contains("is-active") ? closeNav() : openNav()
+    );
+
+    closeNav();
+
+    $("#fullpage").fullpage({
+      anchors: ["firstPage", "secondPage", "thirdPage"],
+      menu: "#myMenu"
+    });
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+  <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+  <script type="text/javascript" src="js/scrolloverflow.js"></script>
+  <script type="text/javascript" src="js/fullpage.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#fullpage").fullpage({
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: false
+      });
+
+      //methods
+      $.fn.fullpage.setAllowScrolling(false);
+    });
+
+    $(function () {
+      $("#fullpage").fullpage({
+        scrollOverflow: true,
+        setAllowScrolling: true
+      });
+    });
+
+    /**
+     * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+     *
+     * @private
+     * @author Todd Motto
+     * @link https://github.com/toddmotto/foreach
+     * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+     * @callback requestCallback      callback   - Callback function for each iteration.
+     * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+     * @returns {}
+     */
+
+    var forEach = function (t, o, r) {
+      if ("[object Object]" === Object.prototype.toString.call(t))
+        for (var c in t)
+          Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+      else
+        for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t);
+    };
+
+
+    $(document).ready(function () {
+      // clicking button with class "category-button"
+      $(".majoritem").click(function () {
+        // get the data-filter value of the button
+        var filterValue = $(this).attr('data-filter');
+
+        // show all items
+        if (filterValue == "all") {
+          $(".all").show("slow");
+        } else {
+          // hide all items
+          $(".all").not('.' + filterValue).hide("slow");
+          // and then, show only items with selected data-filter value
+          $(".all").filter('.' + filterValue).show("slow");
+        }
+      });
+
+    });
+  </script>
+</body>
+
+</html>
