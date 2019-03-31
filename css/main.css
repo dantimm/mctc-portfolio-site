@@ -260,6 +260,10 @@ body {
   ;
 }
 
+#about {
+  padding: 2rem 0;
+}
+
 .artist {
   background-color: #19252C;
   padding-top: 11px;
@@ -656,6 +660,7 @@ hr {
 #feat {
   font-weight: 900;
   margin-top: 3rem;
+  margin-right: 0;
 }
 
 #go-back {
