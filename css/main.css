@@ -390,6 +390,9 @@ hr {
 .brienna {
   margin-bottom: 50px;
 }
+.mobileartist {
+  height: auto;
+}
 /* mobile viewport for artist section _____*/
 @media (max-width: 991px){
   .empty-space {
@@ -474,6 +477,57 @@ hr {
 }
 
 /*__________________________________________*/
+
+/* 320px responsiveness stuffs ___________________*/
+
+@media (max-width: 320px){
+
+  .cryingintheclubonatuesday {
+    margin-top: 100px;
+  }
+
+  .aboutbottom {
+    margin-bottom: 100px;
+  }
+
+  .artist, h1 {
+    margin-right: 100px;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .slidetotheright {
+    margin-left: 12px!important;
+  }
+
+  .norules {
+   border-left: none!important;
+  }
+
+  .major {
+    left: 92%;
+  }
+  .profilename {
+    left: -35px;
+  }
+  .threefriendly {
+    padding-left: 25px;
+  }
+  .artistbtn {
+    left: 116%;
+  }
+  .majoritem {
+    margin-left: 48px;
+    margin-top: 0;
+  }
+
+}
+
+
+
+
+
+
 
 .firstname {
   font-size: 25px;
