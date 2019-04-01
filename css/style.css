@@ -66,11 +66,6 @@ a:hover {
 
 .tan {
     color: #cc8651;
-    transition: .4s
-}
-
-.tan:hover {
-    color: white;
 }
 
 .magenta {
@@ -98,7 +93,7 @@ i {
 }
 
 i:hover {
-    color: white;
+    color: #cc8651;
 }
 
 i:active {
