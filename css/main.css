@@ -902,6 +902,13 @@ hr {
     margin-top: 100px;
   }
 
+
+@media (max-width: 320px) {
+
+  .cryingintheclubonatuesday {
+    margin-top: 100px;
+  }
+
   .aboutbottom {
     margin-bottom: 100px;
   }
@@ -927,6 +934,7 @@ hr {
 
   .profilename {
     left: -12% !important;
+
   }
 
   .threefriendly {
