@@ -404,7 +404,6 @@ hr {
   margin-bottom: 50px;
 }
 
-
 /* mobile viewport for artist section _____*/
 @media (max-width: 991px) {
   .empty-space {
@@ -499,61 +498,12 @@ hr {
     background: none;
     border: none;
     padding-top: 4px;
+    left: 62%!important;
   }
 
 }
 
 /*__________________________________________*/
-
-/* 320px responsiveness stuffs ___________________*/
-
-@media (max-width: 320px){
-
-  .cryingintheclubonatuesday {
-    margin-top: 100px;
-  }
-
-  .aboutbottom {
-    margin-bottom: 100px;
-  }
-
-  .artist, h1 {
-    margin-right: 100px;
-    font-size: 27px;
-    text-align: center;
-  }
-
-  .slidetotheright {
-    margin-left: 12px!important;
-  }
-
-  .norules {
-   border-left: none!important;
-  }
-
-  .major {
-    left: 92%;
-  }
-  .profilename {
-    left: -35px;
-  }
-  .threefriendly {
-    padding-left: 25px;
-  }
-  .artistbtn {
-    left: 116%;
-  }
-  .majoritem {
-    margin-left: 48px;
-    margin-top: 0;
-  }
-
-}
-
-
-
-
-
 
 .hiddenhr {
   display: none;
@@ -571,7 +521,7 @@ hr {
     width: 200px;
     position: absolute;
     top: 22px;
-    left: -21px;
+    left: -7% !important;
   }
 
   .firstname {
@@ -615,6 +565,7 @@ hr {
 
   .artistdisplay {
     margin-top: 30px;
+    padding-left: 0!important;
   }
 
   .print {
@@ -623,6 +574,11 @@ hr {
 
   .footerp {
     font-size: 11px !important;
+    padding-bottom: 15px;
+    margin-top: 2px!important;
+  }
+  .arrow {
+    right: 3% !important;
   }
 
 }
@@ -662,7 +618,7 @@ hr {
 }
 
 .empty-space {
-  height: 280px;
+  height: 450px;
 }
 
 
@@ -805,8 +761,73 @@ hr {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  .profilename {
+    left: 26px;
+  }
+  .major {
+    left: 101%;
+
+  }
 }
 
+@media (max-width: 991px){
+  .artistbtn {
+    display: block;
+  }
+  .artist-menu {
+    background: none;
+    border: none;
+    padding-top: 4px;
+  }
+  .artistdisplay{
+    padding-left: 10%;
+    height: 117px;
+  }
+  .majoritem{
+    margin-left: -7px!important;
+  }
+  .major {
+    left: 206%;
+  }
+  .print {
+    display: none!important;
+  }
+  #web {
+    display: none;
+  }
+  .mobileartist {
+    display: block;
+  }
+  .empty-space {
+    display: none;
+  }
+
+  .profilename {
+    left: 12%;
+
+  }
+
+  .profilepic {
+    height: 75px;
+    width: 75px;
+  }
+  .arrow {
+    right: 17%;
+  }
+
+}
+
+@media (max-width: 801px){
+  .major {
+    left: 169%;
+  }
+}
+
+@media (max-width: 701px){
+  .major {
+    left: 126%;
+  }
+}
 .footerp {
   font-size: 15px;
   text-align: center;
@@ -817,9 +838,26 @@ hr {
   padding-top: 15px;
 }
 
+@media (max-width:415px){
+  .majoritem{
+    margin-left: -26px!important;
+  }
+}
+@media (max-width:375px){
+  .majoritem{
+    margin-left: -8px!important;
+  }
+}
+
 .footerp:hover {
   color: #aa4f2c;
 }
+@media (max-width: 360px) {
+  .major {
+    left: 106%!important;
+  }
+}
+
 
 /* INTERIOR PAGE Mobile Phone QUERY */
 
@@ -849,7 +887,62 @@ hr {
   background-color: #27313a;
   color: white;
 }
+@media (max-width: 375px){
+  .profilename {
+    left: -10% !important;
 
+  }
+  .major {
+    left: 113%;
+  }
+}
+@media (max-width: 320px) {
+
+  .cryingintheclubonatuesday {
+    margin-top: 100px;
+  }
+
+  .aboutbottom {
+    margin-bottom: 100px;
+  }
+
+  .artist,
+  h1 {
+    margin-right: 100px;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .slidetotheright {
+    margin-left: 12px !important;
+  }
+
+  .norules {
+    border-left: none !important;
+  }
+
+  .major {
+    left: 85%;
+  }
+
+  .profilename {
+    left: -12% !important;
+  }
+
+  .threefriendly {
+    padding-left: 25px;
+  }
+
+  .artistbtn {
+    left: 116%;
+  }
+
+  .majoritem {
+    margin-left: 48px;
+    margin-top: 0;
+  }
+
+}
 
 @media (min-width: 576px) {
 
