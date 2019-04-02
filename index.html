@@ -41,7 +41,7 @@
         <a data-menuanchor="secondPage" href="index.html#about" data-scroll>
           <h2>SHOW INFO</h2>
         </a>
-        <a data-menuanchor="thirdPage" href="designers.html">
+        <a data-menuanchor="thirdPage" href="index.html#artist" data-scroll>
           <h2>DESIGNERS</h2>
         </a>
         <hr id="nav-hr" />
@@ -707,22 +707,6 @@
           </a>
           <hr>
 
-          <a href="designers/personalpage-kasdan.html">
-            <div class="artistdisplay">
-              <div class="profilepic">
-                <img src="images/headshots/kasdan.jpg" alt="" class="img-fluid"
-                  style="max-width: 100px;border-radius: 300px">
-              </div>
-              <div class="profilename">
-                <p class="firstname">Shira</p>
-                <p class="lastname">Kasdan</p>
-                <p class="major">print</p>
-              </div>
-              <i class="fas fa-caret-right arrow"></i>
-            </div>
-          </a>
-          <hr>
-
           <a href="designers/talbert-personalpage.html">
             <div class="artistdisplay">
               <div class="profilepic">
@@ -1327,22 +1311,6 @@
         </a>
         <hr class="all printfilter">
 
-        <a href="designers/personalpage-kasdan.html" class="all printfilter">
-          <div class="artistdisplay">
-            <div class="profilepic">
-              <img src="images/headshots/kasdan.jpg" alt="" class="img-fluid"
-                style="max-width: 75px;border-radius: 300px">
-            </div>
-            <div class="profilename">
-              <p class="firstname">Shira</p>
-              <p class="lastname">Kasdan</p>
-              <p class="major">print</p>
-            </div>
-            <i class="fas fa-caret-right arrow"></i>
-          </div>
-        </a>
-        <hr class="all printfilter">
-
         <a href="designers/talbert-personalpage.html" class="all printfilter">
           <div class="artistdisplay">
             <div class="profilepic">
@@ -1433,12 +1401,9 @@
 
     closeNav();
 
-
-    var myFullpage = new fullpage('#fullpage', {
-      menu: '#myMenu',
-      anchors: ['firstPage', 'secondPage', 'thridPage'],
-      autoScrolling: true,
-      licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+    $("#fullpage").fullpage({
+      anchors: ["firstPage", "secondPage", "thirdPage"],
+      menu: "#myMenu"
     });
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
